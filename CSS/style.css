@@ -55,6 +55,13 @@ body {
     grid-template-columns: 200px 400px 200px;
     grid-template-rows: 120px 200px 200px;
   }
+
+  .hamburger {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: none;
+  }
 }
 
 @media (max-width: 736px) {
@@ -65,8 +72,18 @@ body {
   .content {
     margin-top: 60px;
     display: grid;
-    grid-template-columns: 120px 200px 120px;
+    grid-template-columns: 100px 150px 100px;
     grid-template-rows: 140px 100px 100px;
+  }
+
+  .content--elements {
+    font-size: 10px;
+    padding: 20px;
+    line-height: 14px;
+  }
+
+  .content--elements {
+    margin: 0 10px 0 10px;
   }
 }
 
